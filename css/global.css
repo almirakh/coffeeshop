@@ -1,0 +1,120 @@
+
+
+.border{ 
+    border: 2px solid pink;
+    padding: 10px 20px;
+    margin: 10px;
+    color: grey;
+    background-color:lightyellow;
+    border-radius: 8px;
+    height: calc(20)px;
+    overflow-y:hidden;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1,h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h3,nav{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 33px;
+    font-weight: 300;
+}
+
+h4,p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.highlight{
+    font-size: 28px;
+    background-color: #393939;
+    color: white;
+    width: fit-content;
+    padding: 4px 20px;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.price{
+    font-size: 18px;
+    color: #5bacc3;
+    font-weight: 500;
+}
+
+footer{
+    background-color: #FFF0ED ;
+    padding: 20px;
+}
+
+footer p{
+    font-size: 12px;
+    font-weight: 350;
+}
+
+header li{
+    font-size: 18px;
+}
+
+.nav-menu{
+    background-color: #FFF0ED;
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    width: 100%;
+    height: 100px;
+    padding: 0 20px ;
+}
+
+.nav-menu__link{
+    color: #393939;
+    text-decoration: none;
+}
+
+.nav-menu__list {
+    list-style-type: none;
+    display: flex;
+    align-items:flex-start;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-menu__item {
+    text-transform: uppercase;
+    font-weight: 350;
+    font-size: 20px;
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+    text-decoration: none;
+    list-style: none;
+    color:#393939;
+}
+
+.nav-menu__item--clicked {
+    color: #5bacc3;
+}
+
+.nav-menu__logo{
+   width: 50px;
+   height: 50px;
+}
+
+.nav-menu__title{
+    font-size: 54px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    border-left: 8px;
+}
+
+.nav-menu__link{
+    color: #393939;
+    text-decoration: none;
+}
+
+.no_bullets{
+    list-style-type: none;
+}
