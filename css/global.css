@@ -9,7 +9,6 @@ body {
     color: grey;
     background-color:lightyellow;
     border-radius: 8px;
-    height: calc(20)px;
     overflow-y:hidden;
     font-family:Arial, Helvetica, sans-serif;
 }
