@@ -27,6 +27,15 @@
     height: auto;
 }
 
+.background button {
+    padding: 0.75rem 2rem;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    color: white;
+    background-color: #5BACC3;
+    border: none;
+}
+
 button{
     color: white;
     background-color: #5bacc3;
@@ -78,53 +87,96 @@ header li{
     padding: 2rem 1rem;
 }
 
-.product__card {
-    flex-direction: column;
-    justify-content: space-between; /* Distributes content evenly */
-    align-items: center; /* Center horizontally */
-    text-align: center;
-    background-color: #FFF;
-
-    width: 330px ; 
-    height: 440px;
-    padding: 8px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
-
-.product__card img {
-    height: 280px;
-    border-radius: 6px;
-    align-content: center;
-}
-
-.product__card h4 p {
-    text-align: center;
-}
-
 .product__layout {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     row-gap: 4rem;
-    padding: 0.2rem;
+    padding: 0 2rem;
 }
 
-.product_section button {
+.card {
+    margin: 0 2rem;
+    display: inline-block;
+    width: 330px;
+    height:fit-content;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    background: #fff;
+}
+
+.card img {
+    height: 280px;
+    border-radius: 6px;
+    align-content: center;
+    min-height: 14rem;
+    margin: 20px;
+}
+
+.card__body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF0ED;
+
+    padding: 0 1.2rem;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.card__header {
+    text-align: left;
+}
+
+
+.card__title {
+    margin: 0.25rem 0;
+}
+
+
+.card__subtitle {
+    margin: 0.25rem 0;
+    font-size: 1rem;
+    color: #909090;
+}
+
+.card__price {
+    margin: 0.25rem 0;
+    text-align: center;
+    color: #5BACC3;
+    font-size: 2.07rem;
+    font-weight: 700;
+}
+
+
+.button_section {
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.button_section button {
+    padding: 0.75rem 2rem;
+    font-size: 1.3125rem;
+    font-weight: 400;
     color: white;
-    background-color: #5bacc3;
+    background-color: #5BACC3;
     border: none;
-    border-radius: 4px;
-    padding: 8px 12px;
-    width: fit-content;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .promo {
     background-color: #FFF;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    height: 20rem;
 }
 
 .promo__highlight{
@@ -146,6 +198,7 @@ header li{
 
 .footer__layout {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
